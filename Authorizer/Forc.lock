@@ -1,0 +1,28 @@
+[[package]]
+name = 'AccessControl'
+source = 'path+from-root-6C822B4D36FB2B81'
+dependencies = ['std']
+
+[[package]]
+name = 'Authorizer'
+source = 'root'
+dependencies = [
+    'AccessControl',
+    'InputHelpers',
+    'std',
+]
+
+[[package]]
+name = 'InputHelpers'
+source = 'path+from-root-6C822B4D36FB2B81'
+dependencies = ['std']
+
+[[package]]
+name = 'core'
+source = 'path+from-root-56CBD671DED0A584'
+dependencies = []
+
+[[package]]
+name = 'std'
+source = 'git+https://github.com/fuellabs/sway?tag=v0.18.1#3bd8eaf4a0f11a3009c9421100cc06c2e897b6c2'
+dependencies = ['core']
