@@ -1,13 +1,7 @@
 [[package]]
-name = 'AccessControl'
-source = 'path+from-root-6C822B4D36FB2B81'
-dependencies = ['std']
-
-[[package]]
 name = 'Authorizer'
 source = 'root'
 dependencies = [
-    'AccessControl',
     'InputHelpers',
     'std',
 ]
